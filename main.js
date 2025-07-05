@@ -1,4 +1,5 @@
 document.addEventListener('DOMContentLoaded', () => {
+    console.log('main.js loaded and DOMContentLoaded fired'); // 追加
     const birthday = new Date('2024-10-19T00:00:00');
     const today = new Date();
     const timeDiff = birthday.getTime() - today.getTime();
